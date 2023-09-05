@@ -12,8 +12,10 @@ export default function App() {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    backgroundColor: '#fff',
+    width: '100vw',
+    height: '100vh',
+    display: 'flex',
+    backgroundColor: 'linear-gradient(to-right, blue, red)',
     alignItems: 'center',
     justifyContent: 'center',
   },
